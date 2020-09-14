@@ -6,9 +6,9 @@ namespace UnitTestingExercise.Tests
     public class UnitTests
     {
         [Theory]
-        [InlineData(1,2,3,6)]
-        [InlineData (5,5,5,15)]
-        [InlineData(10,20,30,60)]
+        [InlineData(1, 2, 3, 6)]
+        [InlineData(5, 5, 5, 15)]
+        [InlineData(10, 20, 30, 60)]
 
         public void Add(int num1, int num2, int num3, int expected)
         {
@@ -22,9 +22,9 @@ namespace UnitTestingExercise.Tests
         }
 
         [Theory]
-        [InlineData(4,2,2)]
-        [InlineData(7,4,3)]
-        [InlineData(30,20,10)]
+        [InlineData(4, 2, 2)]
+        [InlineData(7, 4, 3)]
+        [InlineData(30, 20, 10)]
 
         public void Subtract(int minuend, int subtrhend, int expected)
         {
@@ -38,8 +38,8 @@ namespace UnitTestingExercise.Tests
 
         [Theory]
         [InlineData(1, 2, 2)]
-        [InlineData (2,2,4)]
-        [InlineData (10,20,200)]
+        [InlineData(2, 2, 4)]
+        [InlineData(10, 20, 200)]
         public void Multiply(int num1, int num2, int expected)
         {
             //Arrange
@@ -51,8 +51,8 @@ namespace UnitTestingExercise.Tests
         }
 
         [Theory]
-        [InlineData(2,4,0.5)]
-        [InlineData(6,2,3)]
+        [InlineData(2, 4, 0.5)]
+        [InlineData(6, 2, 3)]
         public void Divide(int num1, int num2, int expected)
         {
             //Arrange
@@ -62,6 +62,8 @@ namespace UnitTestingExercise.Tests
             //Assert
             Assert.Equal(expected, divActual);
         }
+    }
+}
 
 //        [Fact]
 //        public void YourMethodName()

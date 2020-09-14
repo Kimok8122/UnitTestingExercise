@@ -43,10 +43,7 @@ namespace UnitTestingExercise
 
         // Create 2 methods that will utilize the [Fact] tests you wrote
 
-        public string Method1("h")
-        {
-            return "h";
-        }
+       
 
     }
 }
