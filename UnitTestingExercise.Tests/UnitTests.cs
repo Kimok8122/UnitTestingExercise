@@ -63,25 +63,25 @@ namespace UnitTestingExercise.Tests
             Assert.Equal(expected, divActual);
         }
 
-        [Fact]
-        public void YourMethodName()
-        {
-            //Arrange
+//        [Fact]
+//        public void YourMethodName()
+//        {
+//            //Arrange
+//            var expected = "h";
+//            //Act
 
-            //Act
+//            //Assert
+//            Assert.Equal(expected, actual);
+//        }
 
-            //Assert
+//        [Fact]
+//        public void YourMethodName2()
+//        {
+//            //Arrange
 
-        }
+//            //Act
 
-        [Fact]
-        public void YourMethodName2()
-        {
-            //Arrange
-
-            //Act
-
-            //Assert
-        }
-    }
-}
+//            //Assert
+//        }
+//    }
+//}
